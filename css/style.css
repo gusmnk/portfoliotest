@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  float: left;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigator {
+  float: right;
+  margin-right: 30px;
+}
+
+.container-header {
+  height: 70px;
+  max-width: 100%;
+}
+
+.header {
+  background-color: black;
+}
+
+.hero-container {
+  background-image: url(/img/back.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  font-family: "poppins";
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.about {
+  height: 500px;
+  max-width: 100%;
+  background-color: lightgray;
+  display: flex;
+}
+
+.container-about {
+  display: inline-block;
+  height: 490px;
+  width: 50%;
+  max-width: 70%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-about {
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title-about span {
+  color: dodgerblue;
+}
+
+.content-about {
+  font-family: "Roboto";
+  padding: 50px;
+}
+
+.services {
+  height: 500px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_services_all {
+  width: 100%;
+}
+
+.title_services {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  align-content: center;
+  font-size: 30px;
+  height: 90px;
+  padding-left: 70px;
+}
+
+.container_services {
+  height: 300px;
+  max-width: 100%;
+  display: inline-block;
+  display: flex;
+}
+
+.container_s {
+  height: 290px;
+  max-width: 100%;
+  width: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+}
+
+img {
+  width: 150px;
+}
+
+.container_img {
+  display: inline-block;
+  max-width: 200px;
+}
+
+.container_text {
+  display: inline-block;
+
+  max-width: 400px;
+  font-family: "Roboto";
+  font-size: 13px;
+  margin: 10px;
+}
+
+.subtitle_service {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.projects {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.container_projects_all {
+  width: 100%;
+}
+
+.title_projects {
+
+  text-transform: uppercase;
+  font-family: "Poppins";
+  align-content: center;
+  font-size: 30px;
+  height: 90px;
+  padding-left: 70px;
+  color: dodgerblue;
+}
+
+.container_projects{
+    display: flex;
+    width: inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    transition-duration: 0.4s;
+    
+}
+
+.card .card_img img{
+
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+
+}
+
+.card_img{
+    width: 350px;
+}
+
+.card:hover{
+    transform: scale(0.9, 0.9);
+}
+
+.footer{
+    height: 70px;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color:dodgerblue;
+}
+
+.container_footer{
+    width: 100%;
+    display: flex;
+}
+
+.mail{
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.mail_contact{
+    color: white;
+    font-size: 14px;
+    font-family: "Roboto";
+    margin-left: 20px;
+}
+
+.link{
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    
+}
+
+.link_git{
+    font-size: 20px;
+}
+
+.link_linkedin{
+    font-size: 20px;
+    margin-right: 20px;
+}
